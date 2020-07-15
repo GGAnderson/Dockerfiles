@@ -26,5 +26,4 @@ RUN conda install bwa=0.7.15
 
 WORKDIR /data/
 
-ENTRYPOINT ["bwa", "mem"]
-CMD ["--help"]
+ENTRYPOINT ["bwa"]
